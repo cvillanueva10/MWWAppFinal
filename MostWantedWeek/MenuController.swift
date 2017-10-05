@@ -58,7 +58,7 @@ class MenuController: NSObject, UICollectionViewDataSource, UICollectionViewDele
         var adminTab = MenuTab(logoName: "user_profile", labelName: "Admin Only", imageName: "")
         var fillerTab = MenuTab(logoName: "", labelName: "", imageName: "")
         
-        return [aboutTab, brosTab, moneyTab, tieTab, scTab, fillerTab]
+        return [aboutTab, brosTab, moneyTab, tieTab, scTab, adminTab, fillerTab]
     }()
     
     var homeController: HomeController?
